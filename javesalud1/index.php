@@ -49,7 +49,7 @@
                 <!--Login-->
                 <form action="php/login_usuario_be.php" method="POST" class="formulario__login">
                     <h2>Iniciar sesión</h2>
-                    <input type="text" placeholder="Número de documento" name="numero_documento">
+                    <input type="int" placeholder="Número de documento" name="numero_documento">
                     <input type="password" placeholder="Contraseña" name="passwor">
                     <button>Iniciar</button>
                 </form>
